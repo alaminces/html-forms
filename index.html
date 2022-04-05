@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form & List</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Name" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="E-mail"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Web design</td>
+                <td>
+                    <input type="checkbox" name="html"> HTML
+                    <input type="checkbox" name="css"> CSS
+                    <input type="checkbox" name="js"> JS
+                </td>
+            </tr>
+            <tr>
+                <td>File</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>Date Time</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Full Date</td>
+                <td><input type="datetime-local"></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="number" placeholder="01307354958"></td>
+            </tr>
+            <tr>
+                <td>Month</td>
+                <td><input type="month"></td>
+            </tr>
+            <tr>
+                <td>Tel</td>
+                <td><input type="tel" placeholder="+088"></td>
+            </tr>
+            <tr>
+                <td>Search</td>
+                <td><input type="search" placeholder="Search"></td>
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td>0<input type="range">100</td>
+            </tr>
+            <tr>
+                <td>Messege</td>
+                <td><textarea rows="4" placeholder="Write Something"></textarea></td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>
+                    <select>
+                        <option>Select One</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JS">JS</option>
+                        <option value="Bootstrap">Bootstrap</option>
+                        <option value="PHP" selected>PHP</option>
+                        <option value="LARAVEL">LARAVEL</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- html list item -->
+    <ul type="circle">
+        <li>html</li>
+        <li>css</li>
+        <li>bootstrap</li>
+        <li>javascript
+            <ul type="square">
+                <li>jquery</li>
+                <li>react js</li>
+                <li>vue.js</li>
+            </ul>
+        </li>
+    </ul>
+    <ol start="100">
+        <li>php</li>
+        <li>database</li>
+        <li>laravel</li>
+        <li>wordpress</li>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd> - Hypertext Markup Language</dd>
+        <dt>PHP</dt>
+        <dd> - Hypertext Preprocessor</dd>
+    </dl>
+
+
+
+
+
+</body>
+</html>
